@@ -57,7 +57,7 @@ main {
   max-width: 1000px; /* Limit the gallery width */
 }
 .photo-gallery img {
-  height: 200px;
+  height: 250px;
   width: 300px;
 }
 .gallery-img {
@@ -203,7 +203,7 @@ canvas {
 .team-member img {
   width: 100%;
   height: auto;
-  border-radius: 50%;
+  border-radius: 40%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }

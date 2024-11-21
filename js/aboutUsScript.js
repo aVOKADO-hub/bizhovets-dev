@@ -5,8 +5,8 @@
             data: {
                 labels: ['2020', '2021', '2022', '2023'],  // Years of achievement
                 datasets: [{
-                    label: 'Медалі на міжнародних змаганнях',
-                    data: [15, 20, 25, 30],  // Medals won each year
+                    label: 'Кількість нанятих кадрів',
+                    data: [150, 200, 250, 300],  // Medals won each year
                     backgroundColor: '#4caf50',  // Green color
                     borderColor: '#388e3c',
                     borderWidth: 1
@@ -27,9 +27,9 @@
         const achievementCircleChart = new Chart(ctxDoughnut, {
             type: 'doughnut',
             data: {
-                labels: ['Золото', 'Срібло', 'Бронза'],  // Gold, Silver, Bronze
+                labels: ['Жінки', 'Чоловіки'],  // Gold, Silver, Bronze
                 datasets: [{
-                    data: [10, 15, 5],  // Number of medals
+                    data: [1500, 2000],  // Number of medals
                     backgroundColor: ['#FFD700', '#C0C0C0', '#CD7F32'],  // Gold, Silver, Bronze colors
                     borderWidth: 1
                 }]
@@ -49,9 +49,9 @@
         const achievementRadarChart = new Chart(ctxRadar, {
             type: 'radar',
             data: {
-                labels: ['Футбол', 'Баскетбол', 'Легка атлетика', 'Плавання', 'Гімнастика'],  // Sports categories
+                labels: ['20+', '30+', '40+', '50+', '60+'],  // Sports categories
                 datasets: [{
-                    label: 'Продуктивність спортсменів',
+                    label: 'Розподіл кадрів за віком',
                     data: [85, 70, 90, 80, 75],  // Performance ratings for each sport
                     backgroundColor: 'rgba(75, 192, 192, 0.2)',  // Light green
                     borderColor: '#4caf50',  // Green
